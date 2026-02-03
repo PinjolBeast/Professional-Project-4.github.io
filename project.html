@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects | TechCorp</title>
+    <!-- Icon FontAwesome Link yang BENAR -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">TECH<span>CORP</span></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Projects -->
+        <!-- SECTION 4: PROJECTS (3D Carousel Rapi) -->
+    <section id="projects" class="section">
+        <h2 class="title">Our Projects</h2>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <!-- URL gambar sudah benar dan lengkap -->
+                <div class="item"><img src="img/project1.webp"><p>AI Analytics Platform</p></div>
+                <div class="item"><img src="img/project2.webp"><p>Cyber Security System</p></div>
+                <div class="item"><img src="img/project3.webp"><p>Cloud Infrastructure</p></div>
+                <div class="item"><img src="img/project4.webp"><p>Blockchain Solution</p></div>
+                <div class="item"><img src="img/project5.webp"><p>Smart City Development</p></div>
+            </div>
+        </div>
+        <div class="nav-arrows">
+            <i class="fas fa-chevron-left" onclick="rotate('prev')"></i>
+            <i class="fas fa-chevron-right" onclick="rotate('next')"></i>
+        </div>
+    </section>
+
+
+    <!-- MODAL DEV (SAMA PERSIS DENGAN INDEX) -->
+   
+
+    <footer>
+        <p>&copy; 2026 TechCorp Global. All rights reserved.</p>
+    </footer>
+
+    <!-- Memanggil main.js untuk fungsi carousel & autoplay -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechCorp | Global Innovation</title>
+    <!-- Icon FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header & Navigasi -->
+    <nav>
+      <div class="logo">TECH<span>CORP</span></div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- <li><button class="dev-btn" onclick="openAdmin()"><i class="fas fa-user-cog"></i> Dev</button></li> -->
+      </ul>
+    </nav>
+
+    <!-- Section 1: HOME (Hero) -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 id="hero-title">Leading the Future of Technology</h1>
+        <p id="hero-desc">
+          Solusi teknologi cerdas untuk pertumbuhan bisnis berkelanjutan sejak
+          2010.
+        </p>
+        <a href="#projects" class="btn-main">Eksplor Proyek</a>
+      </div>
+    </section>
+
+    <!-- Section 2: ABOUT -->
+        <!-- SECTION 2: ABOUT US (Glassmorphism Style) -->
+    <section id="about" class="section">
+        <h2 class="title">About Our Innovation</h2>
+        <div class="about-flex">
+            <!-- Kotak Teks Gaya Kaca -->
+            <div class="about-text">
+                <h3>Visi Masa Depan</h3>
+                <p>Di 2026, kami melampaui batas teknologi konvensional. Sebagai pemegang kendali penuh atas infrastruktur digital, kami menggabungkan kecerdasan buatan dengan keamanan tingkat tinggi untuk menciptakan ekosistem bisnis yang tak terhentikan.</p>
+                <p>Kami percaya bahwa teknologi bukan hanya alat, melainkan holder utama dalam perubahan dunia.</p>
+            </div>
+            
+            <!-- Statistik Pencapaian -->
+            <div class="about-stats">
+                <div class="stat">
+                    <i class="fas fa-rocket"></i>
+                    <h4>99.9%</h4>
+                    <p>Uptime System</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-users"></i>
+                    <h4>500+</h4>
+                    <p>Global Clients</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-code-branch"></i>
+                    <h4>1200+</h4>
+                    <p>Projects Done</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-award"></i>
+                    <h4>25+</h4>
+                    <p>Tech Awards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: HISTORY (6 Periode dengan Alur Panah) -->
+    <section id="history" class="section grey-bg">
+        <h2 class="title">Our Journey</h2>
+        <p style="color: #8b949e; margin-bottom: 40px;">Evolusi kami dari tahun ke tahun menuju puncak inovasi teknologi.</p>
+        
+        <div class="timeline">
+            <!-- Baris 1 -->
+            <div class="time-item">
+                <div class="time-circle">1</div>
+                <h4>2010</h4>
+                <p><strong>The Beginning:</strong> Perusahaan didirikan dengan fokus pada pengembangan software kustom.</p>
+            </div>
+            <div class="time-item">
+                <div class="time-circle">2</div>
+                <h4>2013</h4>
+                <p><strong>Cloud Era:</strong> Meluncurkan pusat data mandiri untuk mendukung UMKM digital.</p>
+            </div>
+            <div class="time-item">
+                <div class="time-circle">3</div>
+                <h4>2016</h4>
+                <p><strong>Global Expansion:</strong> Membuka kantor pusat regional di Singapura dan Malaysia.</p>
+            </div>
+            <!-- Baris 2 -->
+            <div class="time-item">
+                <div class="time-circle">4</div>
+                <h4>2019</h4>
+                <p><strong>Security First:</strong> Mendapatkan sertifikasi keamanan siber internasional tingkat lanjut.</p>
+            </div>
+            <div class="time-item">
+                <div class="time-circle">5</div>
+                <h4>2022</h4>
+                <p><strong>AI Integration:</strong> Menerapkan Deep Learning pada seluruh sistem otomasi klien.</p>
+            </div>
+            <div class="time-item">
+                <div class="time-circle">6</div>
+                <h4>2026</h4>
+                <p><strong>Market Leader:</strong> Menjadi holder utama dalam pasar infrastruktur digital se-Asia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: PROJECTS (3D Carousel) -->
+        <!-- SECTION 4: PROJECTS (3D Carousel Rapi) -->
+    <section id="projects" class="section">
+        <h2 class="title">Our Projects</h2>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <!-- URL gambar sudah benar dan lengkap -->
+                <div class="item"><img src="img/project1.webp"><p>AI Analytics Platform</p></div>
+                <div class="item"><img src="img/project2.webp"><p>Cyber Security System</p></div>
+                <div class="item"><img src="img/project3.webp"><p>Cloud Infrastructure</p></div>
+                <div class="item"><img src="img/project4.webp"><p>Blockchain Solution</p></div>
+                <div class="item"><img src="img/project5.webp"><p>Smart City Development</p></div>
+            </div>
+        </div>
+        <div class="nav-arrows">
+            <i class="fas fa-chevron-left" onclick="rotate('prev')"></i>
+            <i class="fas fa-chevron-right" onclick="rotate('next')"></i>
+        </div>
+    </section>
+
+    <!-- Section 5: CONTACT -->
+    <section id="contact" class="section contact-bg">
+      <h2 class="title">Contact Us</h2>
+      <div class="contact-grid">
+        <div class="info">
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Sudirman Central Business
+            District, Jakarta
+          </p>
+          <p><i class="fas fa-phone"></i> +62 21 555 1234</p>
+          <p><i class="fas fa-envelope"></i> contact@techcorp.com</p>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Nama Anda" />
+          <textarea placeholder="Pesan Anda"></textarea>
+          <button type="button">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- MODAL DEV (Untuk Ubah Konten Tanpa VS Code) -->
+   
+
+    <footer>
+      <p>&copy; 2026 TechCorp Global. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
